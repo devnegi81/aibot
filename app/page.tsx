@@ -1,13 +1,16 @@
 import { MessageSquare, DiamondPlus } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
+import Divider from "@/components/divider"
 import HeroSection from "@/components/hero-section"
 import MarketIntleignace from "@/components/market-intelligence"
 import AutomatedInsights from "@/components/automated-insights"
+import FeatureList from "@/components/feature-list"
+import AcademySection from "@/components/academy-section"
 
 export default function Home() {
   return (
-    <main className="min-h-screen text-white overflow-hidden">
+    <main className="min-h-screen">
        <div className="px-20">
         <Navbar />
        </div>
@@ -15,9 +18,15 @@ export default function Home() {
         {/* Hero Section */}
         
         <HeroSection />
+        <Divider />
         {/* Features Section */}
         <MarketIntleignace />
+        <Divider />
         <AutomatedInsights />
+        <Divider />
+        <FeatureList />
+        <Divider />
+        <AcademySection />
       </div>
 
       {/* Floating action buttons */}
