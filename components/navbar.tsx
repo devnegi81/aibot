@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Download, Menu, X } from "lucide-react"
+import { Download, Menu, X, DiamondPlus } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Navbar() {
@@ -37,7 +37,7 @@ export default function Navbar() {
           </div>
 
           <Button variant="outline" className="border-gray-700 text-white gap-2 rounded-full">
-            <Download size={16} />
+            <DiamondPlus size={16} />
             Join The Waitlist
           </Button>
         </div>

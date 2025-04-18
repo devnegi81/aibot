@@ -4,7 +4,9 @@ export default function HeroSection() {
         <div className="relative w-full h-screen overflow-hidden flex items-center text-center">
 
           <h2 className="absolute text-[140px] font-[600] bg-gradient-to-r select-none pointer-events-none w-full text-center from-green-500 via-teal-400 to-cyan-400 text-transparent bg-clip-text">
-            Personalized Experience
+          Personalized Research
+          <br />
+          Assistant
           </h2>
           <div className="relative z-10 w-full h-full flex items-center justify-center">
             <img 
